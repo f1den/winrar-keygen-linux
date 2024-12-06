@@ -32,6 +32,7 @@ void PrintRegisterInfo(const WinRarKeygen<WinRarConfig>::RegisterInfo& Info) {
 }
 
 int main(int argc, char* argv[]) {
+    Help();
     std::cout << "Program start" << std::endl;
     setlocale(LC_ALL, "");
     if (argc == 3) {
