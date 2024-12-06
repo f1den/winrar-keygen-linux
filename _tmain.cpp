@@ -6,6 +6,7 @@
 #include <system_error>
 #include <sstream>
 #include <cstring>
+#include <iostream>
 
 void Help() {
     puts("Usage:");
